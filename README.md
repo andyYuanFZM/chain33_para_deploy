@@ -8,7 +8,7 @@
 - windows/chain33.toml: 主程序对应的配置文件
 
 > 环境启动前准备工作：
-- 正常需要修改chain33.toml文件中的mainnetJrpcAddr和ParaRemoteGrpcClient这两个配置向，指向自己部署的Chain33主链（BTY主网）地址。这边配置文件中已经配了一个公开的主网节点，可以不用修改配置文件直接启动。
+- 通常情况下需要修改chain33.toml文件中的mainnetJrpcAddr和ParaRemoteGrpcClient这两个配置向，指向自己部署的Chain33主链（BTY主网）地址。这边配置文件中已经配了一个公开的主网节点，所以可以不用修改配置文件直接启动。
 
 > 启动环境：
 - 启动 chain33.exe
