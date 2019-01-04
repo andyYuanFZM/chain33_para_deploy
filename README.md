@@ -8,7 +8,8 @@
 - windows/chain33.toml: 主程序对应的配置文件
 
 > 备注：
-- 这边已经把chain33.exe和chain33-cli.exe两个可执行文件都编译好了，大家也可以下载源码自己编译。
+- windows文件夹中已经包含了编译好的chain33.exe和chain33-cli.exe这两个可执行文件。
+- 如果想要自己编译的，可以自行下载源码编译
 - chain33 源码地址 [https://github.com/33cn/plugin](https://github.com/33cn/plugin) ， 下载后分别执行以下命令
 
 ```ini
