@@ -7,24 +7,8 @@
 - windows/chain33-cli.exe: 命令行工具（可以用它来实现对区块链的操作，包括创建账户，转账，发送交易，查询等一系列功能）
 - windows/chain33.toml: 主程序对应的配置文件
 
-> 备注：
-- windows文件夹中已经包含了编译好的chain33.exe和chain33-cli.exe这两个可执行文件。
-- 如果想要自己编译的，可以自行下载源码编译
-- chain33 源码地址 [https://github.com/33cn/plugin](https://github.com/33cn/plugin) ， 下载后分别执行以下命令
-
-```ini
-go build -o chain33.exe
-go build -o chain33-cli.exe github.com/33cn/plugin/cli
-```
-
 > 环境启动前准备工作：
-- 复杂美官方已经提供可供连接的主链节点，可以不用修改配置文件直接启动。
-- 如果需要连接自己搭建的主链，修改以下两个配置项中的IP，指向自己主链的地址。
-
-```ini
-mainnetJrpcAddr="http://139.219.1.47:8801"
-ParaRemoteGrpcClient = "139.219.1.47:8802"
-```
+- 正常需要修改chain33.toml文件中的mainnetJrpcAddr和ParaRemoteGrpcClient这两个配置向，指向自己部署的Chain33主链（BTY主网）地址。这边配置文件中已经配了一个公开的主网节点，可以不用修改配置文件直接启动。
 
 > 启动环境：
 - 启动 chain33.exe
