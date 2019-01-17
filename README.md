@@ -20,7 +20,7 @@ chain33.exe -f chain33.toml
 > 状态检查
 - 查询节点是否已经和主链同步 (平行链需要从主链上拉取区块，所以同步需要花一些时间)
 ```ini
-chain33-cli.exe net is_sync
+chain33-cli.exe para is_sync
 true
 ```
 
